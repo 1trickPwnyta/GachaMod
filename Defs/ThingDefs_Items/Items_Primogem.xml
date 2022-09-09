@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="Primogem">
+    <defName>Primogem</defName>
+    <label>primogem</label>
+    <description>Premium currency.</description>
+	<thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+	<selectable>true</selectable>
+    <graphicData>
+      <texPath>Things/Items/Primogem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+	<altitudeLayer>Item</altitudeLayer>
+	<stackLimit>160</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>0.04</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+	<tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+	<alwaysHaulable>true</alwaysHaulable>
+	<comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>14</pathCost>
+    <burnableByRecipe>false</burnableByRecipe>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>

@@ -17,5 +17,10 @@ Adds gacha to the game.
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
+		<li>
+			<packageId>mlmlmlm.cosplayapparelgenshinimpact</packageId>
+			<displayName>[Cosplay apparel]Genshin impact</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2569969607</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 </ModMetaData>

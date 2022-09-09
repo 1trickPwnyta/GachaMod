@@ -54,9 +54,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Debug.cs" />
-    <Compile Include="AnimalGrowthTimeInDaysMod.cs" />
-    <Compile Include="Patch_AnimalProductionUtility.cs" />
+    <Compile Include="GachaMod.cs" />
+    <Compile Include="Patch_Building_CommsConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThingDefOf.cs" />
+    <Compile Include="TradeUtility.cs" />
+    <Compile Include="WishCommunicable.cs" />
+    <Compile Include="WishGranter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
