@@ -22,5 +22,10 @@ Adds gacha to the game.
 			<displayName>[Cosplay apparel]Genshin impact</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2569969607</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>rationalromancelite.1trickPonyta</packageId>
+			<displayName>Rational Romance Lite</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2779221180</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 </ModMetaData>

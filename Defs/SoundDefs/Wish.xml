@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>Wish</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Wish</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>43</min>        
+          <max>43</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1</min>        
+          <max>1</max>
+        </pitchRange>      
+        <distRange>
+          <min>1</min>        
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</Defs>

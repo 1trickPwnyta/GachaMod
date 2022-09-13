@@ -1,6 +1,7 @@
 ﻿using RimWorld;
 using System.Linq;
 using Verse;
+using Verse.Sound;
 
 namespace GachaMod
 {
@@ -41,8 +42,8 @@ namespace GachaMod
         {
             if (TradeUtility.AmountSendablePrimogem(negotiator.Map) >= 160)
             {
-                WishGranter.GrantWish();
-                RimWorld.TradeUtility.LaunchThingsOfType(ThingDefOf.Primogem, 160, negotiator.Map, null);
+                WishGranter.GrantWish(negotiator.Map);
+                RimWorld.TradeUtility.LaunchThingsOfType(ThingDef.Named("Primogem"), 160, negotiator.Map, null);
             }
         }
     }

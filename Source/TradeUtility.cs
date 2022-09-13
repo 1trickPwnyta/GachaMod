@@ -8,7 +8,7 @@ namespace GachaMod
         public static int AmountSendablePrimogem(Map map)
         {
             return (from t in RimWorld.TradeUtility.AllLaunchableThingsForTrade(map, null)
-                    where t.def == ThingDefOf.Primogem
+                    where t.def == ThingDef.Named("Primogem")
                     select t).Sum((Thing t) => t.stackCount);
         }
     }
