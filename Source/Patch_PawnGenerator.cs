@@ -14,7 +14,7 @@ namespace GachaMod
 
         public static void Postfix(ref Pawn __result)
         {
-            if (__result != null && __result.inventory != null)
+            if (__result != null && __result.inventory != null && !__result.NonHumanlikeOrWildMan())
             {
                 int num = random.Next(10);
                 for (int i = 0; i < num + 3; i++)

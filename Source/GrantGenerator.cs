@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Verse;
 
 namespace GachaMod
@@ -9,8 +8,10 @@ namespace GachaMod
         public static string GetGrant()
         {
             List<string> possibleGrants = new List<string>();
-            if (Rand.Value < 0.016f)
+            if (Rand.Value < 0.016f || GachaSettings.FiveStarPity >= 89)
             {
+                GachaSettings.FourStarPity = 0;
+                GachaSettings.FiveStarPity = 0;
                 possibleGrants.Add("Keqing");
                 possibleGrants.Add("Diluc");
                 possibleGrants.Add("Qiqi");
@@ -25,8 +26,10 @@ namespace GachaMod
                 possibleGrants.Add("charge rifle");
                 possibleGrants.Add("charge lance");
             }
-            else if (Rand.Value < 0.12)
+            else if (Rand.Value < 0.12 || GachaSettings.FourStarPity >= 9)
             {
+                GachaSettings.FourStarPity = 0;
+                GachaSettings.FiveStarPity++;
                 possibleGrants.Add("Amber");
                 possibleGrants.Add("Kaeya");
                 possibleGrants.Add("Lisa");
@@ -54,6 +57,8 @@ namespace GachaMod
             }
             else
             {
+                GachaSettings.FourStarPity++;
+                GachaSettings.FiveStarPity++;
                 possibleGrants.Add("knife");
                 possibleGrants.Add("ikwa");
                 possibleGrants.Add("axe");

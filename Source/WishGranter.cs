@@ -13,7 +13,6 @@ namespace GachaMod
         public static void GrantWish(Map map)
         {
             string grant = GrantGenerator.GetGrant();
-            grant = "Mona";
             Debug.Log("Wish granted: " + grant);
 
             List<Thing> list = new List<Thing>();

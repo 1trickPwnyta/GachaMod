@@ -72,6 +72,7 @@
     <Compile Include="Characters\Xingqiu.cs" />
     <Compile Include="Debug.cs" />
     <Compile Include="GachaMod.cs" />
+    <Compile Include="GachaSettings.cs" />
     <Compile Include="GrantFulfiller.cs" />
     <Compile Include="GrantGenerator.cs" />
     <Compile Include="Patch_PawnGenerator.cs" />

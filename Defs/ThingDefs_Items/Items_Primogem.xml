@@ -20,7 +20,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>50</MarketValue>
+      <MarketValue>5</MarketValue>
       <Mass>0.04</Mass>
     </statBases>
     <thingCategories>

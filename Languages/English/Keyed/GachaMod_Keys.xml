@@ -4,4 +4,6 @@
 	<GachaMod_MessageNeedBeaconToWish>NeedBeaconToWish</GachaMod_MessageNeedBeaconToWish>
 	<GachaMod_WishGrantedLetterLabel>Wish granted: {0}</GachaMod_WishGrantedLetterLabel>
 	<GachaMod_WishGrantedLetterText>You spent 160 primogems to make a wish, and you received {0}!</GachaMod_WishGrantedLetterText>
+	<GachaMod_FourStarPity>4 star pity: {0}</GachaMod_FourStarPity>
+	<GachaMod_FiveStarPity>5 star pity: {0}</GachaMod_FiveStarPity>
 </LanguageData>
